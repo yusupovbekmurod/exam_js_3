@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <!-- css -->
+   <link rel="stylesheet" href="./style.css">
+   <title>Pokemon</title>
+</head>
+<body class="bg-warning">
+
+   <header class="text-center">
+      <img src="./images/pokemon_logo.svg" alt="pokemon_logo">
+   </header>
+   <main>
+      <div class="container">
+         <div class="inputs">
+            <form>
+               <input type="text" class="input_gross" placeholder="Gross">
+               <input type="text" class="input_search" placeholder="Search...">
+               <select class="input_sort">
+                  <option value="All" class="all">All</option>
+                  <option value="Aa-Zz" class="correct_order" >Aa-Zz</option>
+                  <option value="Zz-Aa" class="wrong_order">Zz-Aa</option>
+               </select>
+               <button class="click_btn"><b>Button</b></button>
+            </form>
+         </div>
+         <div class="wrapper_pokemons">
+           
+         </div>
+      </div>
+   </main>
+   <footer></footer>
+   
+<script src="./db.js"></script>
+   <script src="./main.js"></script>
+</body>
+</html>
